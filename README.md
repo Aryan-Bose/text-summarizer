@@ -70,4 +70,43 @@ groq-text-summarizer/
 
 
 
+---
+
+## ⚙ Installation Guide
+
+###  Clone Repository
+
+bash
+git clone https://github.com/Aryan-Bose/text-summarizer
+cd groq-text-summarizer
+
+## Create Virtual Environment
+python -m venv venv
+
+### Activate Virtual Environment
+
+Windows:
+source venv/Scripts/activate
+
+Mac/Linux:
+source venv/bin/activate
+
+## Install Dependencies
+pip install -r requirements.txt
+
+## Add Groq API Key
+Create .env file:
+
+GROQ_API_KEY=your_api_key_here
+
+## Run Application
+streamlit run app.py
+
+## Open browser:
+
+http://localhost:8501
+
+
+
+
 
