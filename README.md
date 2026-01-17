@@ -106,6 +106,8 @@ streamlit run app.py
 
 http://localhost:8501
 
+## Deployed at
+https://text-summarizer-swbbvbnzwgdsezd6tkfv9x.streamlit.app
 
 
 
