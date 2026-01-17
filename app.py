@@ -265,7 +265,7 @@ if generate:
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.7,
-                max_tokens=1500
+                max_tokens=2500
             )
 
             summary = response.choices[0].message.content
@@ -346,3 +346,4 @@ st.markdown("""
 AI Notes Generator Platform
 </div>
 """, unsafe_allow_html=True)
+
